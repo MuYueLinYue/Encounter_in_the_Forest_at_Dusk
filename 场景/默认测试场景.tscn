@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl5bq88amd2c3"]
+
+[ext_resource type="Script" uid="uid://bontdaoi2wii5" path="res://场景/默认测试场景.gd" id="1_d2gbq"]
+[ext_resource type="Texture2D" uid="uid://dlbkcbj47cuwi" path="res://images/默认角色.png" id="1_fh2mp"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(241, 232)
+script = ExtResource("1_d2gbq")
+
+[node name="默认角色" type="Sprite2D" parent="."]
+position = Vector2(-44.75, -71.75001)
+scale = Vector2(1.8950001, 1.8949997)
+texture = ExtResource("1_fh2mp")
