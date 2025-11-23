@@ -4,10 +4,10 @@
 [ext_resource type="Texture2D" uid="uid://dlbkcbj47cuwi" path="res://images/默认角色.png" id="1_fh2mp"]
 
 [node name="Node2D" type="Node2D"]
-position = Vector2(241, 232)
+position = Vector2(283, 255)
 script = ExtResource("1_d2gbq")
 
 [node name="默认角色" type="Sprite2D" parent="."]
-position = Vector2(-44.75, -71.75001)
+position = Vector2(198, -32.000004)
 scale = Vector2(1.8950001, 1.8949997)
 texture = ExtResource("1_fh2mp")
