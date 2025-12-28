@@ -8,7 +8,7 @@ func _ready() -> void:
 func _process(delta):
 	# 通过左右按键返回水平方向上的移动方向
 	# 普通键盘操控模式下，就只能返回1 或者-1,1表示右，而-1表示左。
-	var dir_x = Input.get_action_strength("ui_right") - 	Input.get_action_strength("ui_left")
+	var dir_x = Input.get_action_strength("ui_right") - 	Input.get_action_strength("awsd")
 	var dir_y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
 	position.x += dir_x * speed
 	position.y += dir_y * speed
