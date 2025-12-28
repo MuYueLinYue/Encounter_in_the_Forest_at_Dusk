@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Encounter_in_the_Forest_at_Dusk"
+run/main_scene="uid://dfbuq6j5ius81"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
